@@ -1,0 +1,31 @@
+image: node:18
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Install npm modules with npm install and build production site with npm run build
+          script:
+            - npm install
+            - CI=false npm run build
+          artifacts:
+            - build/**
+      - step:
+          name: Build and Push to Private Repository
+          services:
+            - docker
+          script:
+            - docker login --username=$DOCKER_USERNAME --password=$DOCKER_PASSWORD $DOCKER_REGISTRY
+            - docker build -t $DOCKER_REPOSITORY_NAME/property-web:latest .
+            - docker push $DOCKER_REPOSITORY_NAME/property-web:latest
+
+      - step:
+          name: Deploy to Dev Server
+          script:
+            - pipe: atlassian/ssh-run:0.4.0
+              variables:
+                SSH_USER: $SSH_USER
+                SERVER: $SERVER
+                PORT: $PORT
+                COMMAND: >
+                  bash /home/$SSH_USER/script-deploy/property-web/script.sh

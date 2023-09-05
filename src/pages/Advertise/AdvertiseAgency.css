@@ -1,0 +1,255 @@
+/* AdvertiseAgency.css */
+
+.Body {
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.centered-image {
+    max-width: 100%;
+    /* Ensure the image doesn't exceed its container's width */
+    max-height: 100%;
+    /* Ensure the image doesn't exceed its container's height */
+}
+.Text01 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.box-kiri {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 950px;
+}
+
+/* Center the images within .box-kiri */
+.box-kiri img {
+    display: block;
+    /* margin: 0 auto; */
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+
+/* Adjust .Point to align text and .point img to the left */
+.Point {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 0;
+}
+
+.StandardAds,
+.Advertiseuntilyoufindatenant,
+.Tools,
+.Track,
+.Publish,
+.Notifications {
+    font-size: 18px;
+    margin-left: 10px;
+    /* Add some left margin to separate text from the left edge */
+}
+
+.Point img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    /* Add right margin to separate images from text */
+}
+.sub-note h8{
+    color: rgb(185, 185, 185);
+}
+
+.rectangular-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 225px;
+    /* Adjust padding to control button size */
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add rounded corners */
+    cursor: pointer;
+    /* Add cursor pointer on hover */
+    font-size: 16px;
+    /* Adjust font size */
+    text-align: center;
+    text-decoration: none;
+}
+
+.box-kanan {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 950px;
+}
+
+.box-kanan img {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    margin: 25px;
+    padding: 5px;
+}
+
+.sub-1 {
+    font-size: 16px;
+    font-weight: bold;
+  
+}
+
+
+.sub-2 {
+    margin-top: -15px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.List-Text {
+    margin-top: 0px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+/* .mini-box {
+    background-color: #f0f0f0;
+    /* Customize the background color */
+    /* padding: 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 30px;
+    height: 50px;
+    width: 100px; */
+    /* Adjust the margin to separate it from other content */
+    /* Add other styles as needed */
+
+    /* Remove max-width property from .image-container img */
+.container {
+        display: flex;
+        justify-content: space-between;
+        /* Adjust as needed */
+        gap: 20px;
+        /* Adjust as needed to control the space between elements */
+    }
+
+    .box-Raywhite img {
+    /* max-width: 100%; Remove this line */
+    margin-top: -10px;
+    margin-left: 5px;
+    width: 160px;
+    height: 40px;
+}
+
+.box-Raywhite {
+    background-color: #f0f0f0;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+
+}
+
+.box-Raywhite h10 {
+    text-align: center;
+}
+
+.box-Remax img {
+    /* max-width: 100%; Remove this line */
+    margin-top: -10px;
+    margin-left: 5px;
+    width: 160px;
+    height: 40px;
+}
+
+.box-Remax {
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 15px;
+    text-align: center;
+    width: 200px;
+
+}
+
+.box-Remax h10 {
+    text-align: center;
+}
+
+.view-profile{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 40px;
+    /* Adjust padding to control button size */
+    background-color: #ffffff;
+    /* Button background color */
+    color: #000;
+    /* Button text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add rounded corners */
+    cursor: pointer;
+    /* Add cursor pointer on hover */
+    font-size: 16px;
+    /* Adjust font size */
+    text-align: center;
+    text-decoration: none;
+}
+
+.rectangular-button2{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 125px;
+    /* Adjust padding to control button size */
+    background-color: #007bff;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    border: none;
+    /* Remove border */
+    border-radius: 5px;
+    /* Add rounded corners */
+    cursor: pointer;
+    /* Add cursor pointer on hover */
+    font-size: 16px;
+    /* Adjust font size */
+    text-align: center;
+    text-decoration: none;
+}
+
+
+/* Style Footer */
+.footer-section {
+    display: block;
+    margin: 0 auto;
+    border-top: 1px solid #BCBCBC;
+
+    bottom: 0;
+    left: 0;
+    width: 100%;
+            /* Use 100% to span the entire width of the page */
+    height: 80px;
+    background-color: #ffffff;
+    margin: 50px;
+
+}

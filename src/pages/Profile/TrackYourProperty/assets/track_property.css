@@ -1,0 +1,22 @@
+.preview-video {
+    display: block;
+    width: 100%;
+}
+
+.img-property-details {
+    width: 180px;
+}
+
+@media (max-width: 1128px) {
+    * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+    }
+
+    .img-property-details {
+        width: 100%;
+    }
+
+
+}

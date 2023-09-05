@@ -1,0 +1,195 @@
+@font-face {
+  font-family: PangeaAfrikanTrial-Light;
+  src: url("./fonts/PangeaAfrikanTrial-Light.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: PangeaAfrikanTrial-Bold;
+  src: url("./fonts/PangeaAfrikanTrial-Bold.ttf");
+  font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* font-family: PangeaAfrikanTrial-Light;
+    font-family: PangeaAfrikanTrial-Bold; */
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  .bg-lightblue {
+    background-color: lightblue;
+  }
+  .bg-grey {
+    background-color: #f5f5f5;
+  }
+  .bg-content-detail {
+    background-color: rgb(246, 245, 248);
+  }
+  .bg-content-listing {
+    background-color: rgb(247, 248, 249);
+  }
+  .container-card {
+    border-radius: 20px;
+  }
+  /* ------------------------------------------- */
+  .box-content-profile {
+    width: 1126px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box-content-profile-2 {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .bg-listings-img {
+    background-image: url('bg_listings_2.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 15rem !important;
+  }
+  .w-form {
+    width: 50%
+  }
+  .m-btn-form {
+    margin-left: 10px;
+  }
+  .full-height {
+    min-height: calc(100vh - 280px);
+    display: flex;
+    flex-direction: column;
+  }
+  .center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .padding-right-3rem {
+    padding-right: 3rem;
+  }
+  
+  .center-content {
+    text-align: center;
+  }
+
+  .text-link {
+    color: rgb(0, 88, 148);
+  }
+  
+  .text-link:hover {
+      text-decoration: underline;
+  }
+
+  .hover-text-link:hover {
+    color: darkblue;
+    text-decoration: underline;
+  }
+
+  .custom-list-checkmark {
+    list-style-type: none;
+    padding-left: 20px;
+  }
+
+  .custom-list-checkmark li:before {
+    content: url('checkmark.svg');
+    margin-right: 10px;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 34px;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    border-radius: 50%;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  @media (max-width: 1128px) {
+    * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+    }
+  
+    .box-content-profile {
+      width: 100% !important;
+      padding: 0px 25px;
+    }
+
+    .box-content-profile-2 {
+      width: 100% !important;
+      padding: 0px 25px;
+    }
+
+    .w-form {
+      width: 100%
+    }
+
+    .m-btn-form {
+      margin-top: 10px;
+      margin-left: 0;
+    }
+
+    .bg-listings-img {
+      background-image: url('bg_listings_2.png');
+      background-size: contain;
+      background-position: center;
+      background-repeat: no-repeat;
+      padding-bottom: 2rem !important;
+    }
+
+    .padding-right-3rem {
+      padding-right: 0;
+    }
+  }
+  

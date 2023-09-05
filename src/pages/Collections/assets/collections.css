@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  .bg-lightblue {
+    background-color: lightblue;
+  }
+  .bg-grey {
+    background-color: #f5f5f5;
+  }
+  .container-card {
+    border-radius: 20px;
+  }
+  /* ------------------------------------------- */
+  .box-content-collections {
+    width: 1126px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @media (max-width: 1128px) {
+    * {
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+    }
+  
+    .box-content-collections {
+      width: 100% !important;
+      padding: 0px 25px;
+    }
+  }
+  
+/* My Collections */
+.property-card {
+  position: relative;
+  border-radius: 1rem;
+  box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),
+              0px 1px 1px 0px rgba(0,0,0,0.14),
+              0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+
+.property-card .property-card-header {
+  padding: 0.75rem;
+  padding-right: 90px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: #FFE512;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.property-card div.property-agent-image {
+  position: absolute;
+  border-radius: 100%;
+  top: 10px;
+  right: 5px;
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.property-card .property-card-image {
+  max-height: 600px;
+  width: 100%;
+  overflow: hidden;
+}
+.property-card .property-card-image img {
+  width: 100%;
+}
+
+.property-card .property-card-title {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.property-card .property-card-title p {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-right: auto;
+}
+
+.property-card .property-card-title .star-icon {
+  fill: #FFE512;
+}
+
+.property-card .property-card-content {
+  padding: 1rem;
+}
+
+.property-card .property-card-facilities {
+  display: flex;
+}
+.property-card .property-card-facilities > div:not(:last-child) {
+  margin-right: 1rem;
+}
+.property-card .property-card-facilities.tight > div:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.property-card .property-card-facilities img {
+  margin-right: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+}
+
+/* Inspections */
+.inspection-available {
+  cursor: pointer;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.inspection-available.selected {
+  background: #3D3B40;
+  color: #FFFFFF;
+}
+
+.inspection-time-item {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.inspection-time-item .inspection-time-header {
+  margin-bottom: 1rem;
+}
+.inspection-time-item .inspection-number {
+  background: #3D3B40;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 0.75rem;
+}
+
+.inspection-property-item {
+  padding: 1rem;
+  background-color: #FFF;
+  margin-bottom: 1rem;
+}
+
+.inspection-property-item .property-image-container {
+  width: 105px;
+  height: 105px;
+  background-repeat: no-repeat;
+  background-size: fill;
+  border-radius: 1rem;
+  position: relative;
+}
+.inspection-property-item .property-image-container .btn-control {
+  color: #3D3B40;
+  background-color: #FFFFFF;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+  border-radius: 50%;
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  padding-bottom: 10px;
+}

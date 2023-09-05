@@ -1,0 +1,161 @@
+/* STYLE Rental START  */
+
+.Rental-container {
+
+    flex-direction: row;
+    display: flex;
+
+}
+
+.link-rental {
+    max-width: 1110px;
+    margin: 1.5rem auto;
+    padding: 0px 1rem;
+}
+
+.left {
+    padding: 0px 55px 0px 18%;
+    display: flex;
+    justify-content: center;
+    width: 864px;
+    height: 1221px;
+}
+
+.left-content {
+    display: block;
+    justify-content: center;
+    height: 1038px;
+}
+
+.Title-content {
+
+    width: 423px;
+    height: 95.63px;
+    margin: 0px;
+    padding: 0px 10px;
+
+}
+
+.title-rental {
+    color: #726E75;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px auto;
+}
+
+.title-card {
+    font-size: 34px;
+    line-height: 2.75rem;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.Property-Container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32.53px;
+}
+
+.card-rentallist .HeaderCard {
+    border-radius: 10px 10px 0px 0px;
+    background: #FFE512;
+    box-sizing: border-box;
+    width: 517.8px;
+    height: 35px;
+
+}
+
+.card-rentallist {
+    display: flex;
+    flex-direction: column;
+    width: 517.8px;
+    height: 398.32px;
+}
+
+.desc-card-rental {
+    width: 517.8px;
+    height: 111.628px;
+    line-height: 2.75rem;
+    margin-top: auto;
+    border-radius: 0px 0px 10px 10px;
+    box-sizing: border-box;
+    border-right: 1px solid #BCBCBC;
+    border-bottom: 1px solid #BCBCBC;
+    border-left: 1px solid #BCBCBC;
+    background: var(--color-1, #FFF);
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rent-detailitems {
+    width: 497..8px;
+    height: 21px;
+    display: flex;
+    line-height: 2.75rem;
+    margin-left: 10px;
+}
+
+.rentdetails {
+    margin-right: 1.5rem;
+    width: 70px;
+}
+
+.rent-items {
+    margin: 9.15px 0px 9.96px 10px;
+}
+
+.card-rentallist .img-slide {
+    height: 255.34px;
+    width: 517.8px;
+}
+
+.card-rentallist .imageproperty {
+    display: flex;
+    justify-content: center;
+}
+
+.card-rentallist .agentimage {
+    width: 170px;
+    height: 35px;
+}
+
+.lesser-Property {
+    width: 517.8px;
+    height: 361.928px;
+    margin: 0px 0px 2rem;
+
+}
+
+.lesser-Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 0px;
+}
+
+.Inspected-Property {
+    padding-top: 60.19px;
+}
+
+.Text-Inspected {
+    line-height: 1.5rem;
+    margin-top: 20.33px;
+}
+
+.right {
+    max-width: 1056px;
+    width: 100%;
+    height: 1221px;
+    padding: 1rem;
+    background-color: rgb(246, 245, 248);
+
+}
+
+/* STYLE Rental END  */

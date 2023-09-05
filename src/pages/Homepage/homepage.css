@@ -1,0 +1,103 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .icon{
+    width: 210px;
+    height: 28px;
+    object-fit: contain;
+}
+.home .nav{
+    width: 705px;
+}
+.home .nav a{
+    pointer-events: auto;
+    padding: 0.5rem;
+    color: #3d3b40;
+}
+.home .header{
+    padding: 0px 0.5rem;
+    height: 80px;
+    position: relative;
+}
+.home .header button{
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    min-height: 2rem;
+    min-width: 2rem;
+    text-transform: capitalize;
+}
+.home .c-3d{color: #3d3b40;}
+.home .header .join{
+    background-color: #e4002b;
+}
+.home .banner{
+    background-size: cover;
+    background-position: bottom;
+}
+.home .searchBar{
+    align-items: center;
+    margin: 32px auto auto auto;
+}
+.searchBar h6{
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    font-weight: 600;
+    top: 32px;
+}
+.searchBar .tab{
+    position: absolute;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    border-radius: 0.5rem;
+    justify-content: center;
+    top: 156px;
+    width: fit-content;
+    padding: 0px 1rem;
+    background-color: white;
+}
+.searchBar .tab li button{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    color: #3d3b40;
+}
+.searchBar span.MuiTabs-indicator{
+    background-color: #e4002b;
+}
+.searchBar .tab .MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary{
+    font-weight: bold;
+    color: #3d3b40;
+    width: 145px;
+}
+.searchBar .tab .MuiTabs-root{
+    border-bottom: 1px solid #bdbdbd;
+}
+.home .searchBar input{
+    width: 300px;
+}
+.sb-search button{
+    border-radius: 1.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    min-height: 3rem;
+    min-width: 3rem;
+    padding: calc(0.6875rem) calc(1.4375rem);
+}
+.sb-search button.filter{
+    border: 0.0625rem solid #959199;
+}
+.sb-search button.bt-f{
+    background-color:#e4002b;
+}
+.home .exploreTabs .MuiTabs-indicator{
+    background-color: unset;
+}
+.exploreTabs .MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.Mui-selected{
+    
+}

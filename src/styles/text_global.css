@@ -1,0 +1,76 @@
+@font-face {
+  font-family: Roboto-600;
+  src: url("./fonts/Roboto/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: Roboto-500;
+  src: url("./fonts/Roboto/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: Roboto-400;
+  src: url("./fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: Roboto-700;
+  src: url("./fonts/Roboto/Roboto-Black.ttf");
+}
+
+.text-ellipsis-150px {
+  white-space: nowrap;
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.font-sz-10px {
+  font-size: 10px !important;
+}
+.font-sz-12px {
+  font-size: 12px !important;
+}
+
+.font-sz-14px {
+  font-size: 14px !important;
+}
+.font-sz-16px {
+  font-size: 16px !important;
+}
+
+.font-sz-18px {
+  font-size: 18px !important;
+}
+
+.font-sz-20px {
+  font-size: 20px !important;
+}
+.font-sz-24px {
+  font-size: 24px !important;
+}
+.font-sz-26px {
+  font-size: 26px !important;
+}
+.font-sz-28px {
+  font-size: 28px !important;
+}
+
+.font-sz-30px {
+  font-size: 30px !important;
+}
+.font-sz-32px {
+  font-size: 32px !important;
+}
+.font-roboto-400 {
+  font-family: Roboto-400;
+}
+.font-roboto-500 {
+  font-family: Roboto-500;
+}
+.font-roboto-600 {
+  font-family: Roboto-600;
+}
+.font-roboto-700 {
+  font-family: Roboto-700;
+}
+.font-roboto {
+  font-family: "Roboto", "Helvetica", "Arial", "sans-serif" !important ;
+}

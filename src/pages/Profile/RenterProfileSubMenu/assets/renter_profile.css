@@ -1,0 +1,49 @@
+.yes-no-toggle {
+    width: 50%;
+}
+.yes-no-toggle button {
+    width: 25%;
+}
+.pets-number {
+    width: 50%;
+}
+.pets-number button {
+    width: 20%;
+}
+.bg-sky-blue {
+    background-color: rgb(214, 246, 255);
+}
+.modal-container-profile {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    display: flex;
+    flex-direction: column;
+    padding: 0px 48px 24px;
+    box-sizing: border-box;
+}
+.text-link {
+    color: rgb(0, 88, 148);
+}
+.text-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 1128px) {
+    .text-field-custom {
+        width: '100%',
+    }
+    .pets-number {
+        width: 100%;
+    }
+    .pets-number button {
+        width: 20%;
+    }
+    .yes-no-toggle {
+        width: 100%;
+    }
+    .yes-no-toggle button {
+        width: 25%;
+    }
+}
