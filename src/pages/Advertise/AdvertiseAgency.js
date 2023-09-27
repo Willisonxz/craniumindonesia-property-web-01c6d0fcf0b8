@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import axios from 'axios';
 import NavBarAfterLogin from ".././Profile/components/NavbarAfterLogin";
 import { Box, Icon } from "@mui/material";
 import './AdvertiseAgency.css';
@@ -10,7 +11,21 @@ import RayWhite from "./assets/Raywhite.png"
 import Remax from "./assets/Remax.png"
 
 export default function AdsAgency(){
-    
+    const [experts, setExperts] = useState([]);
+
+    useEffect(() => {
+        // Make an Axios GET request to fetch data for the list of experts
+        axios.get('https://property-api.cranium.id/advertise')
+            .then(response => {
+                // Handle the successful response by setting the experts state
+                setExperts(response.data);
+            })
+            .catch(error => {
+                // Handle any errors that occurred during the request
+                console.error(error);
+            });
+    }, []); // The empty dependency array ensures this effect runs only once
+
     return (
         <div className="Body">
             <NavBarAfterLogin/>
